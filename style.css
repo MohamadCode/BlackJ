@@ -11,3 +11,16 @@ font-weight: bold;
 .main__text {
     color: goldenrod;
 }
+
+
+.btn__start {
+    background-color: goldenrod;
+    color: #016f32;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
