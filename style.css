@@ -2,9 +2,10 @@ body {
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-align: center;
 color: white;
-background-color: green;
-
-
+background-image: url(https://th.bing.com/th/id/R.372c55401aa1f1acaf302d26ec47f6c1?rik=w2jDA7vjA10Ekw&pid=ImgRaw&r=0);
+background-size: cover;
+font-size: 30px;
+font-weight: bold;
 }
 
 .main__text {
