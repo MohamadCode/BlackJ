@@ -1,4 +1,4 @@
-let firstCard = 7
+let firstCard = 9g
 let secondCard = 14
 let sum = firstCard + secondCard
 
@@ -9,6 +9,6 @@ if (sum < 21) {
 else if (sum === 21) {
     console.log("Hooray! You've got Blackjack! 🥳")
 }
-else if (sum > 21) {
+else {
     console.log("GAME OVER! 😭")
 }
