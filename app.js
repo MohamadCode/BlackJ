@@ -29,7 +29,11 @@ function startGame() {
 }
 
 function newCard() {
+    
     console.log("Drawing a new card from the deck!")
+    let cardnumb = 4
+    sum += cardnumb
+    startGame()
 }
 
 
