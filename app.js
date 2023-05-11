@@ -4,7 +4,7 @@ let sum = firstCard + secondCard
 let hasblackJack = false
 let isAlive = true
 let message = ""
-
+let messageEl = document.getElementById("message-el")
 
 function startGame() {
     
