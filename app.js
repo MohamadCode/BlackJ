@@ -20,7 +20,7 @@ function startGame() {
         isAlive = false
     }
 
-    console.log(message)
+    messageEl.textContent = message
 }
 
 
