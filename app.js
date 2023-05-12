@@ -40,8 +40,10 @@ function renderGame() {
 function newCard() {
     
     console.log("Drawing a new card from the deck!")
-    let cardnumb = 4
+    let cardnumb = 6
     sum += cardnumb
+    cards.push(cardnumb)
+    console.log(cards)
     renderGame()
 }
 
