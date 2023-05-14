@@ -49,5 +49,4 @@ function newCard() {
 
 
 
-
-
+gi
