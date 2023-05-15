@@ -1,5 +1,5 @@
-let firstCard = 10
-let secondCard = 4
+let firstCard = gerRandomCard()
+let secondCard = gerRandomCard()
 let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let hasblackJack = false
@@ -10,6 +10,11 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+function gerRandomCard() {
+    return 5
+}
+
 
 function startGame() {
     renderGame()
@@ -44,7 +49,7 @@ function renderGame() {
 function newCard() {
     
     console.log("Drawing a new card from the deck!")
-    let cardnumb = 6
+    let cardnumb = gerRandomCard()
     sum += cardnumb
     cards.push(cardnumb)
     console.log(cards)
