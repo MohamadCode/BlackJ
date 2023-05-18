@@ -10,7 +10,7 @@ let cardsEl = document.getElementById("cards-el")
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-function gerRandomCard() {
+function getRandomCard() {
 let randomNumer = Math.floor( Math.random()*13 ) + 1  
 
     if (randomNumer > 10) {
@@ -64,7 +64,7 @@ function renderGame() {
 function newCard() {
     
     console.log("Drawing a new card from the deck!")
-    let cardnumb = gerRandomCard()
+    let cardnumb = getRandomCard()
     sum += cardnumb
     cards.push(cardnumb)
     console.log(cards)
